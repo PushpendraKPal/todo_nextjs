@@ -34,7 +34,6 @@ const ShowTodos = async () => {
           completed={ele.completed}
           date={ele.date}
           _id={ele._id}
-          key={ele._id}
         ></Task>
       ))}
     </div>
